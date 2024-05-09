@@ -94,7 +94,7 @@ Carousel
 @media(max-width: 768px)
 {
     .carousel-inner {
-        height: 400vh;
+        height: 100vh;
 
     }   
 }
