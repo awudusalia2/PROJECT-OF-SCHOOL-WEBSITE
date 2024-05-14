@@ -111,3 +111,41 @@ Carousel
     }
   
 }
+.course-heading{
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0px;
+    right: 0;
+    text-align: center;
+}
+
+.rowo{
+    display: flex;
+}
+
+.text{
+    background-color: antiquewhite;
+    margin-left: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+h3,p{
+    text-align: center;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media(max-width: 768px){
+    .rowo{
+        display: block;
+    }
+
+    .text{
+        background-color: aquamarine;
+    }
+
+}
